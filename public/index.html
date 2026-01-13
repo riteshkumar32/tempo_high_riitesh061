@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ritesh</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <button id="themeToggle" aria-label="Toggle theme">🌙 Dark</button>
+
+  <h1>Ritesh Kumar 👀</h1>
+  <h5>(Made Specially for Bio-Informatics Lab)</h5>
+
+  <section id="loginSection">
+    <h2>Login</h2>
+    <input id="user" placeholder="Username" autocomplete="username" />
+    <input id="pass" type="password" placeholder="Password" autocomplete="current-password" />
+    <div>
+      <button id="loginBtn">Login</button>
+    </div>
+    <p id="loginMsg" class="muted"></p>
+  </section>
+
+  <section id="app" hidden>
+    <h2>Paste Text</h2>
+    <textarea id="text" placeholder="Paste your text here..."></textarea>
+    <div>
+      <button id="saveBtn">Save</button>
+      <button id="logoutBtn">Logout</button>
+    </div>
+    <p id="saveMsg" class="muted"></p>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
